@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const gerenciamentoRouter = require('./routes/excrud')
+const gerenciamentoRouter = require('./routes/crud')
 app.use(gerenciamentoRouter)
 
 function gerenciamento(req, res, next){
